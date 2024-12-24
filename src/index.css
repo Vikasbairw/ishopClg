@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.background {
+  background-image: linear-gradient(
+    65deg,
+    #e71d3a,
+    #ecc7c1,
+    #efcac4,
+    #e4bdb8,
+    #42a8fe
+  );
+}
+
+.background-height {
+  height: 620px;
+
+}
+ 
+@media (max-width: 720px) {
+  .background-height{
+    height:500px;
+  
+  }
+  }
+   
+  .bg_image_gaming{
+    background-image: url('../public/img/gaming.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_image_beauty{
+  background-image: url('../public/img/beauty.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg_image_sport{
+  background-image: url('../public/img/sport.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.checkoutFont{
+  font-family:cursive;
+}
+.homepage{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
